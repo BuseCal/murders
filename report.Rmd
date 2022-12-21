@@ -1,0 +1,25 @@
+---
+title: "Report on Gun Murders"
+author: "Elif Buse Caliskan"
+date: "2022-12-21"
+output: html_document 
+---
+#--- indicates the header
+#output can be also github_document (markdown document with suffix .md that renders git hub), pdf_document, word_document
+
+#r chunks
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo = FALSE} 
+#echo=FALSE argument hides the code in the final doc
+
+```
+
+```{r descriptive word}
+#adding a label helps debug the codes
+load("rda/murders.rda")
+```
+
+
